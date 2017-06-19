@@ -39,6 +39,7 @@ html {
 header {
   position: fixed;
   width: 100%;
+  z-index:1;
   border-bottom: solid 1px #c6c1c1;
   background-color: white;
 }
@@ -117,6 +118,10 @@ header .mobile {
   justify-content: flex-start;
   align-items: flex-start;
   height: 43.5rem;
+  background-image: url("../images/banner-landingpage.jpg");
+  background-position:center;
+  background-repeat:no-repeat;
+  background-size:cover;
 }
 
 #sign-up-cta {
