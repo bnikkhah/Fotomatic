@@ -36,6 +36,10 @@ html {
   }
 }
 
+.images-container{
+	display:flex;
+}
+
 /* Header */
 
 header {
